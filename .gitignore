@@ -1,0 +1,59 @@
+# Ignore all Vivado-generated files and directories
+*.jou        # Journal files
+*.log        # Log files
+*.tmp        # Temporary files
+*.xpr        # Vivado project files
+*.runs/      # Run directories (synthesis, implementation, etc.)
+*.cache/     # Cache directories
+*.sim/       # Simulation directories
+*.ip_user_files/ # IP user files directory
+*.project/   # Project directory
+*.drc        # Design rule check files
+*.lso        # Log files for synthesis and implementation
+*.synth/     # Synthesis results
+*.impl/      # Implementation results
+*.bit        # Bitstream files
+*.bin        # Binary files
+*.bitstream  # Bitstream files
+*.bmm        # Block Memory Map files
+*.rpt        # Report files
+*.dsa        # Design Suite Artifacts
+*.xml        # Various XML files
+*.hw/        # Hardware files directory
+*.hw_*/      # Hardware files (versioned)
+*.xil        # Xilinx specific files
+*.pb
+*.sh
+*.xpr
+# Specific Vivado-related files and directories
+*VGA.cache/                       
+VGA.hw/                           
+VGA.runs/.jobs/                    
+VGA.runs/impl_1/                   
+VGA.runs/synth_1/.Vivado_Synthesis.queue.rst  
+VGA.runs/synth_1/.vivado.begin.rst 
+VGA.runs/synth_1/.vivado.end.rst   
+VGA.runs/synth_1/ISEWrap.js        
+VGA.runs/synth_1/ISEWrap.sh        
+VGA.runs/synth_1/__synthesis_is_complete__ 
+VGA.runs/synth_1/gen_run.xml       
+VGA.runs/synth_1/htr.txt           
+VGA.runs/synth_1/incr_synth_reason.pb 
+VGA.runs/synth_1/project.wdf       
+VGA.runs/synth_1/rundef.js         
+VGA.runs/synth_1/runme.bat         
+VGA.runs/synth_1/runme.log         
+VGA.runs/synth_1/runme.sh          
+VGA.runs/synth_1/topLevel.dcp      
+VGA.runs/synth_1/topLevel.tcl      
+VGA.runs/synth_1/topLevel.vds      
+VGA.runs/synth_1/topLevel_utilization_synth.pb  
+VGA.runs/synth_1/topLevel_utilization_synth.rpt 
+VGA.runs/synth_1/vivado.jou        
+VGA.runs/synth_1/vivado.pb         
+VGA.srcs/utils_1/                  
+VGA.xpr                            
+
+# Include Verilog and XDC files
+!*.v         
+!*.xdc       
